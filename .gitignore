@@ -7,6 +7,10 @@
 # Ignore bundler config
 /.bundle
 
+# Ignore dev environment
+.ruby-version
+.ruby-gemset
+
 # Ignore the build directory
 /build
 
