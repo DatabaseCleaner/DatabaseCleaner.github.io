@@ -11,8 +11,10 @@
 
     <meta name="description" content="Database cleaner : Strategies for cleaning databases in Ruby.  Can be used to ensure a clean state for testing.">
 
-    <%= stylesheet_link_tag "reset", "pygment_trac" %>
+    <%= stylesheet_link_tag "reset", "theme", "pygment_trac" %>
     <%= javascript_include_tag  "all" %>
+
+    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
   </head>
 
   <body class="<%= page_classes %>">
@@ -21,7 +23,11 @@
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/DatabaseCleaner/database_cleaner">View on GitHub</a>
 
-          <h1 id="project_title">Database cleaner</h1>
+          <h1 id="project_title">
+            <a href="/">
+              Database cleaner
+            </a>
+          </h1>
           <h2 id="project_tagline">Strategies for cleaning databases in Ruby.  Can be used to ensure a clean state for testing.</h2>
 
             <section id="downloads">

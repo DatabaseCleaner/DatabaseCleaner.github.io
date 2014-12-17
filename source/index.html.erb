@@ -5,6 +5,16 @@ title: Database cleaner
 <div id="main_content_wrap" class="outer">
   <section id="main_content" class="inner">
     <h3>
+      Latest News
+    </h3>
+
+    <% blog.articles[0...2].each_with_index do |article, i| %>
+      <h5 class="blog-post">
+        <%= link_to article.title, article %>
+      </h5>
+    <% end %>
+
+    <h3>
       Documentation
     </h3>
 
