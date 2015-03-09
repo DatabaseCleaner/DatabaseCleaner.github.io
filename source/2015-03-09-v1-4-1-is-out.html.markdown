@@ -1,0 +1,11 @@
+---
+title: Database Cleaner v1.4.1 is out!
+date: 2015-03-09
+tags: release
+---
+
+# Database Cleaner v1.4.1 is out!
+
+The latest version contains a few fixes. Please check out: https://github.com/DatabaseCleaner/database_cleaner/blob/master/History.rdoc#141-2015-03-09
+
+Thank you for all your contributions!
