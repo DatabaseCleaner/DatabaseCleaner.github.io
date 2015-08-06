@@ -1,0 +1,22 @@
+---
+title: Database Cleaner v1.4.1 is out!
+date: 2015-03-09
+tags: release
+---
+
+# Database Cleaner v1.4.1 is out!
+
+There were a couple of enhancements:
+
+* Support for deletion with Sequel. (https://github.com/DatabaseCleaner/database_cleaner/pull/285 by @cyberdelia)
+* Removed dependency of Mongo. (https://github.com/DatabaseCleaner/database_cleaner/pull/340 by @codegourmet)
+* Use ruby 1.8 syntax. (https://github.com/DatabaseCleaner/database_cleaner/pull/313 by @daniel-g)
+* Added license to gemspec. (https://github.com/DatabaseCleaner/database_cleaner/pull/335 by @chrismar035)
+* Improved coverage for migrations table. (https://github.com/DatabaseCleaner/database_cleaner/pull/338 by @jonallured)
+
+And these fixes:
+
+* Use ActiveRecord::Base configuration when different from config file. (@wendy0402 fixed issue https://github.com/DatabaseCleaner/database_cleaner/issues/309)
+* Fixed issue with tables schema prefix in Postgres. (https://github.com/DatabaseCleaner/database_cleaner/pull/328 by @phoenixek12)
+
+Thank you for all your contributions!
