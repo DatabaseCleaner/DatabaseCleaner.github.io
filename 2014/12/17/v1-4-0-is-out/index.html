@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Database Cleaner v1.4.0 is out!</title>
+
+    <meta name="description" content="Database cleaner : Strategies for cleaning databases in Ruby.  Can be used to ensure a clean state for testing.">
+
+    <link href="/stylesheets/reset.css" rel="stylesheet" type="text/css" /><link href="/stylesheets/theme.css" rel="stylesheet" type="text/css" /><link href="/stylesheets/pygment_trac.css" rel="stylesheet" type="text/css" />
+    <script src="/javascripts/all.js" type="text/javascript"></script>
+
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+  </head>
+
+  <body class="x2014 x2014_12 x2014_12_17 x2014_12_17_v1-4-0-is-out x2014_12_17_v1-4-0-is-out_index">
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/DatabaseCleaner/database_cleaner">View on GitHub</a>
+
+          <h1 id="project_title">
+            <a href="/">
+              Database cleaner
+            </a>
+          </h1>
+          <h2 id="project_tagline">Strategies for cleaning databases in Ruby.  Can be used to ensure a clean state for testing.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/DatabaseCleaner/database_cleaner/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/DatabaseCleaner/database_cleaner/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+      <div id="main_content_wrap" class="outer">
+    <section id="main_content" class="inner">
+      <h1 id="database-cleaner-v140-is-out">Database Cleaner v1.4.0 is out!</h1>
+
+<p>The latest version contains a couple of new features, some performance upgrades and, of course, bug fixes. More specifically:</p>
+
+<h2 id="new-features">New features</h2>
+
+<ul>
+  <li>Support for Neo4j. (by @dpisarewski)</li>
+  <li>Support for multiple connections on Mongoid. (by @nyarly)</li>
+</ul>
+
+<h2 id="better-performance">Better performance</h2>
+
+<ul>
+  <li>Using the deletion strategy with Mysql now only deletes those tables which have had records added to them. (by @MadRabbit)</li>
+  <li>Add support for <code>pre_count</code> on Sequel with Mysql. (by @vrinek)</li>
+  <li>Cache collection names in mongo's truncation strategy. (by @nyarly)</li>
+</ul>
+
+<h2 id="bug-fixes">Bug fixes</h2>
+
+<ul>
+  <li>Fix <code>undefined method error</code> with DataMapper SQLite adaptor. (by @lanej)</li>
+  <li>Fully define Mysql2 adaptor constant. (by @jgonera)</li>
+  <li>Don't truncate schema tables in Postgres. (by @billywatson)</li>
+  <li>Fix issue where Moped cleaner was missing collections with 'system' in their name. (by @MartinNowak)</li>
+</ul>
+
+<h2 id="roadmap-to-v20">Roadmap to v2.0</h2>
+
+<p>Apart from v1.4.0 there has been some discussion about v2.0 and the possibility of splitting the gem into a core with sub-gems for the various ORMs (more <a href="https://github.com/DatabaseCleaner/database_cleaner/issues/307">here</a>).</p>
+
+    </section>
+  </div>
+
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Database cleaner maintained by <a href="https://github.com/DatabaseCleaner">DatabaseCleaner</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+  </body>
+</html>

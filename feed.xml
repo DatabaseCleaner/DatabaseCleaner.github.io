@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/</id>
+  <link href="http://blog.url.com/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2015-03-09T01:00:00+01:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>Database Cleaner v1.4.1 is out!</title>
+    <link rel="alternate" href="http://blog.url.com/2015/03/09/v1-4-1-is-out/"/>
+    <id>http://blog.url.com/2015/03/09/v1-4-1-is-out/</id>
+    <published>2015-03-09T01:00:00+01:00</published>
+    <updated>2015-08-06T14:16:07+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="database-cleaner-v141-is-out"&gt;Database Cleaner v1.4.1 is out!&lt;/h1&gt;
+
+&lt;p&gt;There were a couple of enhancements:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Support for deletion with Sequel. (https://github.com/DatabaseCleaner/database_cleaner/pull/285 by @cyberdelia)&lt;/li&gt;
+  &lt;li&gt;Removed dependency of Mongo. (https://github.com/DatabaseCleaner/database_cleaner/pull/340 by @codegourmet)&lt;/li&gt;
+  &lt;li&gt;Use ruby 1.8 syntax. (https://github.com/DatabaseCleaner/database_cleaner/pull/313 by @daniel-g)&lt;/li&gt;
+  &lt;li&gt;Added license to gemspec. (https://github.com/DatabaseCleaner/database_cleaner/pull/335 by @chrismar035)&lt;/li&gt;
+  &lt;li&gt;Improved coverage for migrations table. (https://github.com/DatabaseCleaner/database_cleaner/pull/338 by @jonallured)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And these fixes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use ActiveRecord::Base configuration when different from config file. (@wendy0402 fixed issue https://github.com/DatabaseCleaner/database_cleaner/issues/309)&lt;/li&gt;
+  &lt;li&gt;Fixed issue with tables schema prefix in Postgres. (https://github.com/DatabaseCleaner/database_cleaner/pull/328 by @phoenixek12)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thank you for all your contributions!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Database Cleaner v1.4.0 is out!</title>
+    <link rel="alternate" href="http://blog.url.com/2014/12/17/v1-4-0-is-out/"/>
+    <id>http://blog.url.com/2014/12/17/v1-4-0-is-out/</id>
+    <published>2014-12-17T01:00:00+01:00</published>
+    <updated>2015-08-06T14:16:07+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="database-cleaner-v140-is-out"&gt;Database Cleaner v1.4.0 is out!&lt;/h1&gt;
+
+&lt;p&gt;The latest version contains a couple of new features, some performance upgrades and, of course, bug fixes. More specifically:&lt;/p&gt;
+
+&lt;h2 id="new-features"&gt;New features&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Support for Neo4j. (by @dpisarewski)&lt;/li&gt;
+  &lt;li&gt;Support for multiple connections on Mongoid. (by @nyarly)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="better-performance"&gt;Better performance&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Using the deletion strategy with Mysql now only deletes those tables which have had records added to them. (by @MadRabbit)&lt;/li&gt;
+  &lt;li&gt;Add support for &lt;code&gt;pre_count&lt;/code&gt; on Sequel with Mysql. (by @vrinek)&lt;/li&gt;
+  &lt;li&gt;Cache collection names in mongo's truncation strategy. (by @nyarly)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="bug-fixes"&gt;Bug fixes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fix &lt;code&gt;undefined method error&lt;/code&gt; with DataMapper SQLite adaptor. (by @lanej)&lt;/li&gt;
+  &lt;li&gt;Fully define Mysql2 adaptor constant. (by @jgonera)&lt;/li&gt;
+  &lt;li&gt;Don't truncate schema tables in Postgres. (by @billywatson)&lt;/li&gt;
+  &lt;li&gt;Fix issue where Moped cleaner was missing collections with 'system' in their name. (by @MartinNowak)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="roadmap-to-v20"&gt;Roadmap to v2.0&lt;/h2&gt;
+
+&lt;p&gt;Apart from v1.4.0 there has been some discussion about v2.0 and the possibility of splitting the gem into a core with sub-gems for the various ORMs (more &lt;a href="https://github.com/DatabaseCleaner/database_cleaner/issues/307"&gt;here&lt;/a&gt;).&lt;/p&gt;
+</content>
+  </entry>
+</feed>
