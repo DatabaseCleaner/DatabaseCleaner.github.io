@@ -1,0 +1,29 @@
+---
+title: Database Cleaner v1.5.0 is out!
+date: 2015-09-01
+tags: release
+---
+
+# Database Cleaner v1.5.0 is out!
+
+There were a couple of enhancements:
+
+* Use `ensure` within the `cleaning` method ([https://github.com/DatabaseCleaner/database_cleaner/pull/311](https://github.com/DatabaseCleaner/database_cleaner/pull/311) by [@cema-sp](https://github.com/cema-sp))
+
+* Restored `mysql2` + `jruby` support ([https://github.com/DatabaseCleaner/database_cleaner/pull/333](https://github.com/DatabaseCleaner/database_cleaner/pull/333) by [ahorek](https://github.com/ahorek))
+
+* Added required ruby version to gemspec ([https://github.com/DatabaseCleaner/database_cleaner/pull/334](https://github.com/DatabaseCleaner/database_cleaner/pull/334) by [garethrees](https://github.com/garethrees))
+
+* Added support for Mongoid 5.0 and Mongo Ruby Driver 2.0 ([https://github.com/DatabaseCleaner/database_cleaner/pull/367](https://github.com/DatabaseCleaner/database_cleaner/pull/367) by [jprincipe](https://github.com/jprincipe))
+
+* Added support for additional Neo4j::Session.open options ([https://github.com/DatabaseCleaner/database_cleaner/pull/363](https://github.com/https://github.com/DatabaseCleaner/database_cleaner/pull/363) by [brienw](https://github.com/brienw))
+
+* And a bunch of code style and README improvements...
+
+And these fixes:
+
+* Fixed truncation for MongoDB 3 ([https://github.com/DatabaseCleaner/database_cleaner/pull/343](https://github.com/DatabaseCleaner/database_cleaner/pull/343) by [andreale](https://github.com/andreale))
+
+* Fixed deletion strategy for JDBC MySQL adapter([https://github.com/DatabaseCleaner/database_cleaner/pull/352](https://github.com/DatabaseCleaner/database_cleaner/pull/352) by [DanElbert](https://github.com/DanElbert))
+
+Thank you for all your contributions!
