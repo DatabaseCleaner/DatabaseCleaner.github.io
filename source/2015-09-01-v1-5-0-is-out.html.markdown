@@ -24,6 +24,10 @@ And these fixes:
 
 * Fixed truncation for MongoDB 3 ([https://github.com/DatabaseCleaner/database_cleaner/pull/343](https://github.com/DatabaseCleaner/database_cleaner/pull/343) by [andreale](https://github.com/andreale))
 
+* Fixed YAML error when building gem ([https://github.com/DatabaseCleaner/database_cleaner/pull/346](https://github.com/DatabaseCleaner/database_cleaner/pull/346) by [joshnesbitt](https://github.com/joshnesbitt))
+
 * Fixed deletion strategy for JDBC MySQL adapter([https://github.com/DatabaseCleaner/database_cleaner/pull/352](https://github.com/DatabaseCleaner/database_cleaner/pull/352) by [DanElbert](https://github.com/DanElbert))
+
+* Fixed open transactions for multiple connections ([https://github.com/DatabaseCleaner/database_cleaner/pull/364](https://github.com/DatabaseCleaner/database_cleaner/pull/364) by [claptimes5](https://github.com/claptimes5))
 
 Thank you for all your contributions!
