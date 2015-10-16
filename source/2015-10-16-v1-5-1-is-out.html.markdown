@@ -1,0 +1,13 @@
+---
+title: Database Cleaner v1.5.1 is out!
+date: 2015-10-16
+tags: release
+---
+
+# Database Cleaner v1.5.1 is out!
+
+There is only one bug fix:
+
+* Added mongo2 missing files to the gemspec ([https://github.com/DatabaseCleaner/database_cleaner/pull/385](https://github.com/DatabaseCleaner/database_cleaner/pull/385) by [@geerzo](https://github.com/geerzo))
+
+Thank you for all your contributions!
