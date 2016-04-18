@@ -1,0 +1,33 @@
+---
+title: Database Cleaner v1.5.2 is out!
+date: 2016-04-17
+tags: release
+---
+
+# Database Cleaner v1.5.2 is out!
+
+There were a couple of enhancements:
+
+* Use `default_client` with mongoid 5.0 ([https://github.com/DatabaseCleaner/database_cleaner/pull/408](https://github.com/DatabaseCleaner/database_cleaner/pull/408) by [@stjhimy](https://github.com/stjhimy))
+
+* Added comparable support for strategies ([https://github.com/DatabaseCleaner/database_cleaner/pull/405](https://github.com/DatabaseCleaner/database_cleaner/pull/405) by [@st0012](https://github.com/st0012))
+
+* Better README instructions that suggest `append_after` ([https://github.com/DatabaseCleaner/database_cleaner/pull/414](https://github.com/DatabaseCleaner/database_cleaner/pull/414) bt [@jrochkind](https://github.com/jrochkind))
+
+* Removed deprecation warnings for Rails 5.0+ ([https://github.com/DatabaseCleaner/database_cleaner/pull/415](https://github.com/DatabaseCleaner/database_cleaner/pull/415) by [@pschambacher](https://github.com/pschambacher))
+
+* Upgrade to RSpec 2.14 ([https://github.com/DatabaseCleaner/database_cleaner/pull/432](https://github.com/DatabaseCleaner/database_cleaner/pull/432) by [@skalee](https://github.com/skalee))
+
+And these fixes:
+
+* [@dmitrypol](https://github.com/dmitrypol) fixed issue [#409](https://github.com/DatabaseCleaner/database_cleaner/issues/409)
+
+* [@schmierkov](https://github.com/schmierkov) fixed the Travis builds with PR [#416](https://github.com/DatabaseCleaner/database_cleaner/pull/416)
+
+* [@shosti](https://github.com/shosti) fixed issue [#345](https://github.com/DatabaseCleaner/database_cleaner/issues/345)
+
+* [@kylev](https://github.com/kylev) fixed issue [#379](https://github.com/DatabaseCleaner/database_cleaner/issues/379)
+
+* [@skalee](https://github.com/skalee) fixed the Travis builds for Neo4j with PR [#433](https://github.com/DatabaseCleaner/database_cleaner/pull/433)
+
+Thank you for all your contributions!
