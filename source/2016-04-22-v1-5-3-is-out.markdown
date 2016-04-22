@@ -1,0 +1,13 @@
+---
+title: Database Cleaner v1.5.3 is out!
+date: 2016-04-22
+tags: release
+---
+
+# Database Cleaner v1.5.3 is out!
+
+There is only one fix:
+
+* Use `default_client` with mongoid >= 5.0, `default_session` with mongoid < 5.0 ([https://github.com/DatabaseCleaner/database_cleaner/pull/437](https://github.com/DatabaseCleaner/database_cleaner/pull/437) by [@P9GIT](https://github.com/P9GIT))
+
+Thank you for all your contributions!
