@@ -1,0 +1,21 @@
+---
+title: Database Cleaner v1.6.0 is out!
+date: 2017-05-04
+tags: release
+---
+
+# Database Cleaner v1.6.0 is out!
+
+These are the fixes:
+
+* Fix Redis db option ([https://github.com/DatabaseCleaner/database_cleaner/pull/452](https://github.com/DatabaseCleaner/database_cleaner/pull/452) by [@soylent](https://github.com/soylent))
+
+* Make NullStrategy API-complete ([https://github.com/DatabaseCleaner/database_cleaner/pull/444](https://github.com/DatabaseCleaner/database_cleaner/pull/444) by [@anicholson](https://github.com/anicholson))
+
+* Better documentation (fixed typo) ([https://github.com/DatabaseCleaner/database_cleaner/pull/473](https://github.com/DatabaseCleaner/database_cleaner/pull/473) by [@hoshinotsuyoshi](https://github.com/hoshinotsuyoshi))
+
+* MySQL 5.6+ InnoDB support ([https://github.com/DatabaseCleaner/database_cleaner/pull/484](https://github.com/DatabaseCleaner/database_cleaner/pull/484) by [@ahorek](https://github.com/ahorek))
+
+* Rails 5.1 support: Remove deprecation warning ([https://github.com/DatabaseCleaner/database_cleaner/pull/477](https://github.com/DatabaseCleaner/database_cleaner/pull/477) by [@activefx](https://github.com/activefx))
+
+Thank you for all your contributions!
