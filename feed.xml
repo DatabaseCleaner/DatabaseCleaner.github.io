@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/</id>
+  <link href="http://blog.url.com/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2017-05-03T20:00:00-04:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>Database Cleaner v1.6.0 is out!</title>
+    <link rel="alternate" href="http://blog.url.com/2017/05/04/v1-6-0-is-out/"/>
+    <id>http://blog.url.com/2017/05/04/v1-6-0-is-out/</id>
+    <published>2017-05-03T20:00:00-04:00</published>
+    <updated>2017-05-04T15:16:59-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="database-cleaner-v160-is-out"&gt;Database Cleaner v1.6.0 is out!&lt;/h1&gt;
+
+&lt;p&gt;These are the fixes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Fix Redis db option (&lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/452"&gt;https://github.com/DatabaseCleaner/database_cleaner/pull/452&lt;/a&gt; by &lt;a href="https://github.com/soylent"&gt;@soylent&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make NullStrategy API-complete (&lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/444"&gt;https://github.com/DatabaseCleaner/database_cleaner/pull/444&lt;/a&gt; by &lt;a href="https://github.com/anicholson"&gt;@anicholson&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Better documentation (fixed typo) (&lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/473"&gt;https://github.com/DatabaseCleaner/database_cleaner/pull/473&lt;/a&gt; by &lt;a href="https://github.com/hoshinotsuyoshi"&gt;@hoshinotsuyoshi&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;MySQL 5.6+ InnoDB support (&lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/484"&gt;https://github.com/DatabaseCleaner/database_cleaner/pull/484&lt;/a&gt; by &lt;a href="https://github.com/ahorek"&gt;@ahorek&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Rails 5.1 support: Remove deprecation warning (&lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/477"&gt;https://github.com/DatabaseCleaner/database_cleaner/pull/477&lt;/a&gt; by &lt;a href="https://github.com/activefx"&gt;@activefx&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thank you for all your contributions!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Database Cleaner v1.5.3 is out!</title>
+    <link rel="alternate" href="http://blog.url.com/2016/04/22/v1-5-3-is-out/"/>
+    <id>http://blog.url.com/2016/04/22/v1-5-3-is-out/</id>
+    <published>2016-04-21T20:00:00-04:00</published>
+    <updated>2017-05-04T15:04:55-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="database-cleaner-v153-is-out"&gt;Database Cleaner v1.5.3 is out!&lt;/h1&gt;
+
+&lt;p&gt;There is only one fix:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use &lt;code&gt;default_client&lt;/code&gt; with mongoid &amp;gt;= 5.0, &lt;code&gt;default_session&lt;/code&gt; with mongoid &amp;lt; 5.0 (&lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/437"&gt;https://github.com/DatabaseCleaner/database_cleaner/pull/437&lt;/a&gt; by &lt;a href="https://github.com/P9GIT"&gt;@P9GIT&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thank you for all your contributions!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Database Cleaner v1.5.2 is out!</title>
+    <link rel="alternate" href="http://blog.url.com/2016/04/17/v1-5-2-is-out/"/>
+    <id>http://blog.url.com/2016/04/17/v1-5-2-is-out/</id>
+    <published>2016-04-16T20:00:00-04:00</published>
+    <updated>2017-05-04T15:04:55-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="database-cleaner-v152-is-out"&gt;Database Cleaner v1.5.2 is out!&lt;/h1&gt;
+
+&lt;p&gt;There were a couple of enhancements:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use &lt;code&gt;default_client&lt;/code&gt; with mongoid 5.0 (&lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/408"&gt;https://github.com/DatabaseCleaner/database_cleaner/pull/408&lt;/a&gt; by &lt;a href="https://github.com/stjhimy"&gt;@stjhimy&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Added comparable support for strategies (&lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/405"&gt;https://github.com/DatabaseCleaner/database_cleaner/pull/405&lt;/a&gt; by &lt;a href="https://github.com/st0012"&gt;@st0012&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Better README instructions that suggest &lt;code&gt;append_after&lt;/code&gt; (&lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/414"&gt;https://github.com/DatabaseCleaner/database_cleaner/pull/414&lt;/a&gt; bt &lt;a href="https://github.com/jrochkind"&gt;@jrochkind&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Removed deprecation warnings for Rails 5.0+ (&lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/415"&gt;https://github.com/DatabaseCleaner/database_cleaner/pull/415&lt;/a&gt; by &lt;a href="https://github.com/pschambacher"&gt;@pschambacher&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Upgrade to RSpec 2.14 (&lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/432"&gt;https://github.com/DatabaseCleaner/database_cleaner/pull/432&lt;/a&gt; by &lt;a href="https://github.com/skalee"&gt;@skalee&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And these fixes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href="https://github.com/dmitrypol"&gt;@dmitrypol&lt;/a&gt; fixed issue &lt;a href="https://github.com/DatabaseCleaner/database_cleaner/issues/409"&gt;#409&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href="https://github.com/schmierkov"&gt;@schmierkov&lt;/a&gt; fixed the Travis builds with PR &lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/416"&gt;#416&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href="https://github.com/shosti"&gt;@shosti&lt;/a&gt; fixed issue &lt;a href="https://github.com/DatabaseCleaner/database_cleaner/issues/345"&gt;#345&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href="https://github.com/kylev"&gt;@kylev&lt;/a&gt; fixed issue &lt;a href="https://github.com/DatabaseCleaner/database_cleaner/issues/379"&gt;#379&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href="https://github.com/skalee"&gt;@skalee&lt;/a&gt; fixed the Travis builds for Neo4j with PR &lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/433"&gt;#433&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thank you for all your contributions!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Database Cleaner v1.5.1 is out!</title>
+    <link rel="alternate" href="http://blog.url.com/2015/10/16/v1-5-1-is-out/"/>
+    <id>http://blog.url.com/2015/10/16/v1-5-1-is-out/</id>
+    <published>2015-10-15T20:00:00-04:00</published>
+    <updated>2017-05-04T15:04:55-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="database-cleaner-v151-is-out"&gt;Database Cleaner v1.5.1 is out!&lt;/h1&gt;
+
+&lt;p&gt;There is only one bug fix:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Added mongo2 missing files to the gemspec (&lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/385"&gt;https://github.com/DatabaseCleaner/database_cleaner/pull/385&lt;/a&gt; by &lt;a href="https://github.com/geerzo"&gt;@geerzo&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thank you for all your contributions!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Database Cleaner v1.5.0 is out!</title>
+    <link rel="alternate" href="http://blog.url.com/2015/09/01/v1-5-0-is-out/"/>
+    <id>http://blog.url.com/2015/09/01/v1-5-0-is-out/</id>
+    <published>2015-08-31T20:00:00-04:00</published>
+    <updated>2017-05-04T15:04:55-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="database-cleaner-v150-is-out"&gt;Database Cleaner v1.5.0 is out!&lt;/h1&gt;
+
+&lt;p&gt;There were a couple of enhancements:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use &lt;code&gt;ensure&lt;/code&gt; within the &lt;code&gt;cleaning&lt;/code&gt; method (&lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/311"&gt;https://github.com/DatabaseCleaner/database_cleaner/pull/311&lt;/a&gt; by &lt;a href="https://github.com/cema-sp"&gt;@cema-sp&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Restored &lt;code&gt;mysql2&lt;/code&gt; + &lt;code&gt;jruby&lt;/code&gt; support (&lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/333"&gt;https://github.com/DatabaseCleaner/database_cleaner/pull/333&lt;/a&gt; by &lt;a href="https://github.com/ahorek"&gt;ahorek&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Added required ruby version to gemspec (&lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/334"&gt;https://github.com/DatabaseCleaner/database_cleaner/pull/334&lt;/a&gt; by &lt;a href="https://github.com/garethrees"&gt;garethrees&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Added support for Mongoid 5.0 and Mongo Ruby Driver 2.0 (&lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/367"&gt;https://github.com/DatabaseCleaner/database_cleaner/pull/367&lt;/a&gt; by &lt;a href="https://github.com/jprincipe"&gt;jprincipe&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Added support for additional Neo4j::Session.open options (&lt;a href="https://github.com/https://github.com/DatabaseCleaner/database_cleaner/pull/363"&gt;https://github.com/DatabaseCleaner/database_cleaner/pull/363&lt;/a&gt; by &lt;a href="https://github.com/brienw"&gt;brienw&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;And a bunch of code style and README improvements…&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And these fixes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Fixed truncation for MongoDB 3 (&lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/343"&gt;https://github.com/DatabaseCleaner/database_cleaner/pull/343&lt;/a&gt; by &lt;a href="https://github.com/andreale"&gt;andreale&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Fixed YAML error when building gem (&lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/346"&gt;https://github.com/DatabaseCleaner/database_cleaner/pull/346&lt;/a&gt; by &lt;a href="https://github.com/joshnesbitt"&gt;joshnesbitt&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Fixed deletion strategy for JDBC MySQL adapter(&lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/352"&gt;https://github.com/DatabaseCleaner/database_cleaner/pull/352&lt;/a&gt; by &lt;a href="https://github.com/DanElbert"&gt;DanElbert&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Fixed open transactions for multiple connections (&lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/364"&gt;https://github.com/DatabaseCleaner/database_cleaner/pull/364&lt;/a&gt; by &lt;a href="https://github.com/claptimes5"&gt;claptimes5&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thank you for all your contributions!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Database Cleaner v1.4.1 is out!</title>
+    <link rel="alternate" href="http://blog.url.com/2015/03/09/v1-4-1-is-out/"/>
+    <id>http://blog.url.com/2015/03/09/v1-4-1-is-out/</id>
+    <published>2015-03-08T20:00:00-04:00</published>
+    <updated>2017-05-04T15:04:55-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="database-cleaner-v141-is-out"&gt;Database Cleaner v1.4.1 is out!&lt;/h1&gt;
+
+&lt;p&gt;There were a couple of enhancements:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Support for deletion with Sequel. (https://github.com/DatabaseCleaner/database_cleaner/pull/285 by @cyberdelia)&lt;/li&gt;
+  &lt;li&gt;Removed dependency of Mongo. (https://github.com/DatabaseCleaner/database_cleaner/pull/340 by @codegourmet)&lt;/li&gt;
+  &lt;li&gt;Use ruby 1.8 syntax. (https://github.com/DatabaseCleaner/database_cleaner/pull/313 by @daniel-g)&lt;/li&gt;
+  &lt;li&gt;Added license to gemspec. (https://github.com/DatabaseCleaner/database_cleaner/pull/335 by @chrismar035)&lt;/li&gt;
+  &lt;li&gt;Improved coverage for migrations table. (https://github.com/DatabaseCleaner/database_cleaner/pull/338 by @jonallured)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And these fixes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use ActiveRecord::Base configuration when different from config file. (@wendy0402 fixed issue https://github.com/DatabaseCleaner/database_cleaner/issues/309)&lt;/li&gt;
+  &lt;li&gt;Fixed issue with tables schema prefix in Postgres. (https://github.com/DatabaseCleaner/database_cleaner/pull/328 by @phoenixek12)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thank you for all your contributions!&lt;/p&gt;
+</content>
+  </entry>
+</feed>
