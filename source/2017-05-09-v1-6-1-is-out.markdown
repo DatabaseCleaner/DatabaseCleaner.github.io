@@ -1,0 +1,13 @@
+---
+title: Database Cleaner v1.6.1 is out!
+date: 2017-05-09
+tags: release
+---
+
+# Database Cleaner v1.6.1 is out!
+
+There is one fix:
+
+* Fix deletion strategy for ActiveRecord ([https://github.com/DatabaseCleaner/database_cleaner/pull/485](https://github.com/DatabaseCleaner/database_cleaner/pull/458) by [@kawamoto](https://github.com/kawamoto))
+
+Thank you for your contribution!
