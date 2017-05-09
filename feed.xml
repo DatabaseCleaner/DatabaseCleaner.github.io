@@ -5,10 +5,30 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2017-05-03T20:00:00-04:00</updated>
+  <updated>2017-05-08T20:00:00-04:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Database Cleaner v1.6.1 is out!</title>
+    <link rel="alternate" href="http://blog.url.com/2017/05/09/v1-6-1-is-out/"/>
+    <id>http://blog.url.com/2017/05/09/v1-6-1-is-out/</id>
+    <published>2017-05-08T20:00:00-04:00</published>
+    <updated>2017-05-09T10:34:39-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="database-cleaner-v161-is-out"&gt;Database Cleaner v1.6.1 is out!&lt;/h1&gt;
+
+&lt;p&gt;There is one fix:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fix deletion strategy for ActiveRecord (&lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/458"&gt;https://github.com/DatabaseCleaner/database_cleaner/pull/485&lt;/a&gt; by &lt;a href="https://github.com/kawamoto"&gt;@kawamoto&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thank you for your contribution!&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Database Cleaner v1.6.0 is out!</title>
     <link rel="alternate" href="http://blog.url.com/2017/05/04/v1-6-0-is-out/"/>
@@ -186,37 +206,6 @@
   &lt;li&gt;
     &lt;p&gt;Fixed open transactions for multiple connections (&lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/364"&gt;https://github.com/DatabaseCleaner/database_cleaner/pull/364&lt;/a&gt; by &lt;a href="https://github.com/claptimes5"&gt;claptimes5&lt;/a&gt;)&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Thank you for all your contributions!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Database Cleaner v1.4.1 is out!</title>
-    <link rel="alternate" href="http://blog.url.com/2015/03/09/v1-4-1-is-out/"/>
-    <id>http://blog.url.com/2015/03/09/v1-4-1-is-out/</id>
-    <published>2015-03-08T20:00:00-04:00</published>
-    <updated>2017-05-04T15:04:55-04:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;h1 id="database-cleaner-v141-is-out"&gt;Database Cleaner v1.4.1 is out!&lt;/h1&gt;
-
-&lt;p&gt;There were a couple of enhancements:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Support for deletion with Sequel. (https://github.com/DatabaseCleaner/database_cleaner/pull/285 by @cyberdelia)&lt;/li&gt;
-  &lt;li&gt;Removed dependency of Mongo. (https://github.com/DatabaseCleaner/database_cleaner/pull/340 by @codegourmet)&lt;/li&gt;
-  &lt;li&gt;Use ruby 1.8 syntax. (https://github.com/DatabaseCleaner/database_cleaner/pull/313 by @daniel-g)&lt;/li&gt;
-  &lt;li&gt;Added license to gemspec. (https://github.com/DatabaseCleaner/database_cleaner/pull/335 by @chrismar035)&lt;/li&gt;
-  &lt;li&gt;Improved coverage for migrations table. (https://github.com/DatabaseCleaner/database_cleaner/pull/338 by @jonallured)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And these fixes:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Use ActiveRecord::Base configuration when different from config file. (@wendy0402 fixed issue https://github.com/DatabaseCleaner/database_cleaner/issues/309)&lt;/li&gt;
-  &lt;li&gt;Fixed issue with tables schema prefix in Postgres. (https://github.com/DatabaseCleaner/database_cleaner/pull/328 by @phoenixek12)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Thank you for all your contributions!&lt;/p&gt;
