@@ -6,10 +6,10 @@ tags: release
 
 # Database Cleaner v1.6.2 is out!
 
-* Better documentation. Typos were fixed. Sequel deletion *is* supported. ([https://github.com/DatabaseCleaner/database_cleaner/pull/500] and [https://github.com/DatabaseCleaner/database_cleaner/pull/497])
+* Better documentation. Typos were fixed. Sequel deletion *is* supported. See [PR #500](https://github.com/DatabaseCleaner/database_cleaner/pull/500) and [PR #49](https://github.com/DatabaseCleaner/database_cleaner/pull/497)
 
-* ActiveRecord::Base namespace patch ([https://github.com/DatabaseCleaner/database_cleaner/pull/490])
+* ActiveRecord::Base namespace patch. See [PR #490](https://github.com/DatabaseCleaner/database_cleaner/pull/490)
 
-* Better exclusion condition based on Rails version ([https://github.com/DatabaseCleaner/database_cleaner/pull/487])
+* Better exclusion condition based on Rails version. See [PR #487](https://github.com/DatabaseCleaner/database_cleaner/pull/487) 
 
 Thank you for your contributions!
