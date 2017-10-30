@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/2017/10/29/v1-6-2-is-out/"/>
     <id>http://blog.url.com/2017/10/29/v1-6-2-is-out/</id>
     <published>2017-10-28T20:00:00-04:00</published>
-    <updated>2017-10-29T22:00:07-04:00</updated>
+    <updated>2017-10-29T22:03:50-04:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -22,13 +22,13 @@
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;Better documentation. Typos were fixed. Sequel deletion &lt;em&gt;is&lt;/em&gt; supported. ([https://github.com/DatabaseCleaner/database_cleaner/pull/500] and [https://github.com/DatabaseCleaner/database_cleaner/pull/497])&lt;/p&gt;
+    &lt;p&gt;Better documentation. Typos were fixed. Sequel deletion &lt;em&gt;is&lt;/em&gt; supported. See &lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/500"&gt;PR #500&lt;/a&gt; and &lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/497"&gt;PR #49&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;ActiveRecord::Base namespace patch ([https://github.com/DatabaseCleaner/database_cleaner/pull/490])&lt;/p&gt;
+    &lt;p&gt;ActiveRecord::Base namespace patch. See &lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/490"&gt;PR #490&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Better exclusion condition based on Rails version ([https://github.com/DatabaseCleaner/database_cleaner/pull/487])&lt;/p&gt;
+    &lt;p&gt;Better exclusion condition based on Rails version. See &lt;a href="https://github.com/DatabaseCleaner/database_cleaner/pull/487"&gt;PR #487&lt;/a&gt; &lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
